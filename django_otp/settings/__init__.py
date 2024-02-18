@@ -9,5 +9,3 @@ if 'Development' in config('ENV_NAME'):
     include('development.py')
 elif 'Production' in config('ENV_NAME'):
     include('production.py')
-
-# other security or credentials files...    
